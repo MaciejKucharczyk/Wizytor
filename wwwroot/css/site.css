@@ -12,6 +12,43 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+.button-next {
+    border: none;
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: table-cell;
+    font-size: 16px;
+    margin: 0px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-green {
+    background-color: white;
+    color: black;
+    border: 2px solid #04AA6D;
+}
+
+    .button-green:hover {
+        background-color: #04AA6D;
+        color: white;
+    }
+
+.button-red {
+    background-color: white;
+    color: black;
+    border: 2px solid #E10000;
+}
+
+    .button-red:hover {
+        background-color: #ff0000;
+        color: white;
+    }
+
+
+
 html {
   position: relative;
   min-height: 100%;
